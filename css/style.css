@@ -19,14 +19,15 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 .description a{color:#fff;}
 .description a:hover{color:#404d5b;}
 
-.social-btns{margin: 0 auto;display: block;float: none;height: 50px;width: 370px;}
+.social-btns{margin: 0 auto;display: block;float: none;height: 50px;width: 550px;}
 .social-btns img{margin: 0 auto;display: block;}
 .social-btns a{position:relative;background: rgba(0,0,0,.2);width: 50px;height:50px;float:left;border-radius: 50%;margin-right: 8%;}
 .social-btns a:nth-child(1) img{margin-top: 13px;}
 .social-btns a:nth-child(2) img{margin-top: 16px;}
-.social-btns a:nth-child(3) img{margin-top: 15px;}
-.social-btns a:nth-child(4) img{margin-top: 14px;}
-.social-btns a:nth-child(5) img{margin-top: 16px;}
+.social-btns a:nth-child(3) img{margin-top: 13px;}
+.social-btns a:nth-child(4) img{margin-top: 16px;}
+.social-btns a:nth-child(5) img{margin-top: 15px;}
+.social-btns a:nth-child(6) img{margin-top: 16px;}
 .social-btns a:last-child{margin-right:0;}
 .social-btns a:hover{box-shadow: 0 0 0 10px rgba(0,0,0,0.2);background: rgba(0,0,0,.4);}
 
@@ -70,7 +71,7 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 *******************/
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 600px) {
 	.headline{font-size: 11vw;width: 91%;}
 	.headline-line{display:none;}
 	.description{font-size: 5.2vw;width: 90%;}
@@ -81,11 +82,14 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 	.social-btns a:nth-child(3){}
 	.social-btns a:nth-child(4){}
 	.social-btns a:nth-child(5){}
+	.social-btns a:nth-child(6){}
 	.social-btns a:nth-child(1) img{width: 25px;height: auto;margin-top: 9px;}
 	.social-btns a:nth-child(2) img{width: 20px; height: auto; margin-top: 12px;}
 	.social-btns a:nth-child(3) img{width: 20px; height: auto; margin-top: 13px;}
 	.social-btns a:nth-child(4) img{width: 18px; height: auto; margin-top: 11px;}
 	.social-btns a:nth-child(5) img{width: 18px; height: auto; margin-top: 12px;}
+	.social-btns a:nth-child(6) img{width: 18px; height: auto; margin-top: 12px;}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
