@@ -92,19 +92,27 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 481px) and (max-width : 767px) {
+/* iPads (portrait and landscape) ----------- 1.1  */
+@media only screen and (min-width : 481px) and (max-width : 600px) {
 	.headline{font-size: 6.2vw;width: 91%;}
-	.description{font-size: 3.2vw;width: 90%;}
-	.social-btns{width: 80%;}
+	.description{font-size: 3.5vw;width: 90%;}
+	.social-btns{width: 50%; width: 350;}
 	.social-btns a{}
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) ----------- 1.2 */
+@media only screen and (min-width : 601px) and (max-width : 767px) {
+	.headline{font-size: 6.2vw;width: 91%;}
+	.description{font-size: 3.5vw;width: 90%;}
+	.social-btns{width: 80%; width: 500px;}
+	.social-btns a{}
+}
+
+/* iPads (portrait and landscape) ----------- 1.3 */
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
 	.headline{}
-	.description{font-size: 2.2vw;width: 71%;}
-	.social-btns{width: 55%;width: 370px;}
+	.description{font-size: 2.5vw;width: 71%;}
+	.social-btns{width: 55%; width: 550px;}
 	.social-btns a{}
 }
 
@@ -118,4 +126,3 @@ body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text
 @media only screen and (min-width : 1824px) {
 
 }
-
