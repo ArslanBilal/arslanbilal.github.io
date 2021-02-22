@@ -7,14 +7,14 @@
 ::selection {color:#000;background:rgba(255,255,255,.2);}
 ::-moz-selection {color:#000;background:rgba(255,255,255,.2);}
 
-body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text-align:center;background: url('../images/bg.jpg') no-repeat center center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+body{font-family: 'museo-sans', Helvetica, serif;color:#fff;padding-top:12%;text-align:center;background-color:#0A0D11; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 
-.headline{font-family:'museo-slab', Helvetica, serif;font-size: 4.2vw;margin: 0 auto;box-sizing: border-box;padding: 27px 0;width: 80%;position: relative;}
+.headline{font-family:'museo-slab', Helvetica, serif;font-size: 4.2vw;margin: 0 auto;box-sizing: border-box;padding: 27px 0;width: 60%;position: relative;}
 .headline-line{width: 25%;height:2px;background-color:#fff;position:absolute;top: 50%;margin-top: -1px;}
 .headline-line.left{left:0;}
 .headline-line.right{right:0;}
 
-.description{font-size: 1.75vw;margin: 35px auto 20px;width: 81%;}
+.description{font-size: 1.75vw;margin: 35px auto 20px;width: 70%;}
 .description p{line-height:30px;margin-bottom: 50px;}
 .description a{color:#fff;}
 .description a:hover{color:#404d5b;}
